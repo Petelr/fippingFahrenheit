@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title">华氏度°F</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input id="input_Fahrenheit" class="weui-input" maxlength="5" type="number" placeholder="输入华氏度" bindinput="tempConversionF2C" value="{{temp_c}}" focus="{{focus_f}}"/>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="weui-cells__title">摄氏度°C</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input id="input_Celsius" class="weui-input" maxlength="5" type="number" placeholder="输入摄氏度" bindinput="tempConversionC2F" value="{{temp_f}}" focus="{{focus_c}}"/>
+      </view>
+    </view>
+  </view>
+
+</view>
