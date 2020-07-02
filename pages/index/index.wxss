@@ -1,0 +1,19 @@
+/**index.wxss**/
+@import "weui.wxss";
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+
+.show__resutls {
+  margin-top: .77em;
+  margin-bottom: .3em;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #999999;
+  font-size: 14px;
+}
+
+button {
+  margin-right: 0rpx;
+}
