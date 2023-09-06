@@ -3,12 +3,14 @@
     "pages/index/index"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundTextStyle":"@bgTxtStyle",
+    "navigationBarBackgroundColor": "@navBgColor",
     "navigationBarTitleText": "翻滚吧华氏度！",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"@navTxtStyle",
+    "backgroundColor": "@bgColor"
   },
-  
+  "themeLocation": "theme.json",
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "darkmode": true
 }

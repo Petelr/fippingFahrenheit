@@ -540,6 +540,19 @@ icon {
     width: 100%;
     text-align: center;
   }
+}@media (prefers-color-scheme: dark){
+    .weui-cells {
+        background-color: #3d3d3d;
+      }
+    .weui-cells:before {
+        border-top: 1rpx solid #868686;
+    }
+    .weui-cells:after {
+        border-bottom: 1rpx solid #868686;
+    }
+    page{
+        background-color: #191919;
+    }
 }
 .weui-flex {
   display: -webkit-box;
